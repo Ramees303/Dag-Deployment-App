@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dagdepolyment.HelloController">
+   <children>
+      <TextArea fx:id="dagPath" layoutX="41.0" layoutY="98.0" prefHeight="38.0" prefWidth="626.0" />
+      <Label layoutX="41.0" layoutY="68.0" prefHeight="30.0" prefWidth="183.0" text="Path" />
+      <ChoiceBox fx:id="environment" layoutX="41.0" layoutY="188.0" prefHeight="24.0" prefWidth="189.0" />
+      <Label layoutX="41.0" layoutY="158.0" prefHeight="30.0" prefWidth="175.0" text="Environment" />
+      <Button layoutX="506.0" layoutY="188.0" mnemonicParsing="false" onAction="#upload" prefHeight="24.0" prefWidth="159.0" text="Upload" />
+      <Label fx:id="message" alignment="CENTER" layoutX="224.0" layoutY="243.0" prefHeight="65.0" prefWidth="298.0" text="Label" />
+   </children>
+</AnchorPane>
